@@ -1,0 +1,23 @@
+#C #part-1 
+
+- Linux standard streams
+	- stdin
+		- 0
+		- default source of input
+		- usually keyboard
+	- stdout
+		- 1
+		- default destination of output
+		- usually screen
+	- stderr
+		- 2
+		- default destination of error messages
+		- usually screen
+- `scanf()`
+	- reads data from keyboard (or other input) in specified format
+	- `scanf("%d %s")` -> must input int then str separated by space
+- `fgetc()` `fputc()`
+	- reads/writes character from given stream
+- `puts()` `gets()`
+	- prints string with newline
+	- reads line from stdin and sets string passed into it to that line

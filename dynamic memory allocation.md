@@ -1,0 +1,22 @@
+#C #part-1 
+- function pointers
+	- pointer to the code of a function
+	- to pass start point of a function to another function so it can run it
+- using the heap (with functions from `<stdlib.h>)
+	- malloc
+		- `void *malloc(size_t size);`
+			- returns pointer to memory allocated or NULL if it doesn't allocate
+		- `void free (void *ptr)`
+			- frees memory block starting at ptr
+			- set ptr to null after freeing to make it easy to check if it has been freed
+- challenges
+	- dangling pointers
+		- pointers to locations that are already free
+		- good practice to set to null after freeing
+		- use can lead to segmentation faults
+	- double frees
+		- calling free on a pointer twice - even a copy of that pointer
+	- memory leaks
+		- losing pointers to allocated memory
+			- now you cant free it!
+		- 
