@@ -4,17 +4,16 @@
 
 [[systems programming]]
 
+# spacey assessment
+
+[[spacey specification]]
+[[spacey planning]]
+[[spacey bibliography]]
 # C language
 [[C-basics]]
 [[input output]]
 [[dynamic memory allocation]]
 [[bugs]]
-
-# Binary search assessment
-
-[[binary search assessment notes]]
-[[binary search assessment planning]]
-
 # concurrent programming
 
 [[concurrency intro]]
@@ -22,5 +21,7 @@
 [[process and thread synchronisation]]
 [[processes]]
 [[concurrency]]
+# Binary search assessment
 
-
+[[binary search assessment notes]]
+[[binary search assessment planning]]

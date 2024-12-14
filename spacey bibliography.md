@@ -1,0 +1,11 @@
+- https://en.wikipedia.org/wiki/Ada_(programming_language)
+- https://ada-lang.io/docs/style-guide/s6/
+- https://stackoverflow.com/questions/2313347/languages-used-to-write-programs-for-satellite-missions
+- https://en.wikipedia.org/wiki/List_of_concurrent_and_parallel_programming_languages#Multi-threaded
+- https://stackoverflow.com/questions/17140/how-do-you-spawn-another-process-in-c
+- https://www.man7.org/linux/man-pages/man2/fork.2.html
+- https://www.windriver.com/products/vxworks
+- https://www.reddit.com/r/space/comments/4valyq/which_os_platforms_do_spacecraft_computers_use/?rdt=62074
+- https://www.baeldung.com/java-concurrency
+- https://www.youtube.com/watch?v=r_MbozD32eo - java concurrency in 10 minutes
+- 

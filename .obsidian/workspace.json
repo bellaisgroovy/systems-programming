@@ -13,12 +13,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "input output.md",
+                "file": "spacey planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "input output"
+              "title": "spacey planning"
+            }
+          },
+          {
+            "id": "1f5f2424f77aaa9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spacey bibliography.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "spacey bibliography"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9c838dfc69d126b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a7cd085e5184a1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spacey specification.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "spacey specification"
             }
           }
         ]
@@ -87,13 +121,11 @@
               "title": "index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fa56d7543984bbc4",
@@ -179,11 +211,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c806598d4bc46e1",
+  "active": "8188465b67810485",
   "lastOpenFiles": [
+    "spacey bibliography.md",
+    "spacey planning.md",
+    "spacey specification.md",
+    "spacey language options.md",
     "index.md",
-    "2024-12-13.md",
+    "binary search assessment notes.md",
+    "binary search assessment planning.md",
+    "spacey specification.pdf",
     "input output.md",
+    "2024-12-13.md",
     "concurrency intro.md",
     "concurrency.md",
     "process and thread synchronisation.md",
@@ -195,9 +234,7 @@
     "systems programming.md",
     "process lifecycle diagram.png",
     "process",
-    "binary search assessment notes.md",
     "introduction.md",
-    "binary search assessment planning.md",
     "bugs.md~",
     "4913",
     "program structure.md",
