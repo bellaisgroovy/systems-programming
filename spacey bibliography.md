@@ -8,4 +8,6 @@
 - https://www.reddit.com/r/space/comments/4valyq/which_os_platforms_do_spacecraft_computers_use/?rdt=62074
 - https://www.baeldung.com/java-concurrency
 - https://www.youtube.com/watch?v=r_MbozD32eo - java concurrency in 10 minutes
+- https://www.javatpoint.com/memory-management-in-java
+- https://aerorust.org/
 - 

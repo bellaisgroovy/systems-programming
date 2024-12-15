@@ -51,7 +51,17 @@ for the project:
 
 # Java
 
-Memory management in java is automatic. ==I dont actually know how it works though.==
+Memory management in java is automatic. Space is automatically allocated for you and freed cyclically by the garbage collector.
+
+The ==JVM== splits the memory into multiple sections. The main sections are the stack area, method area, and  heap area, although there are other very important areas. 
+
+The stack area is where method calls and their stack frames are stored. When a method completes, its stack frame is destroyed. 
+
+The method area is where metadata about classes is stored. It contains the names, super classes, constructors, interfaces names, and constructors of each class.
+
+The heap area is comparable to the heap in C and is where object's data is stored. It categorises objects based on how long they have existed.
+
+The garbage collector is primarily concerned with the heap area. It frees differently sized and aged objects in separate cycles. There are frequent minor cycles which free small, new objects, then less frequent major cycles for old or especially large objects.
 
 Concurrency and synchronisation means:
 - built in Thread and Runnable
@@ -83,8 +93,4 @@ for the project:
 		- requirements are likely to change so software has to flexible
 
 # Ada
-
-
-
-
 
