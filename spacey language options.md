@@ -1,3 +1,5 @@
+#spacey #concurrency
+
 # Language options
 
 I should pick languages I know stuff about already so its faster to write. I should pick multithreaded languages because of the massive speed up it would offer. I should pick efficient languages because it is running in space so hardware is very commodity.
