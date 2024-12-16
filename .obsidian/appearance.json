@@ -1,7 +1,8 @@
 {
-  "cssTheme": "Sanctum",
+  "cssTheme": "",
   "interfaceFontFamily": "",
   "textFontFamily": "Times New Roman",
   "baseFontSize": 20,
-  "monospaceFontFamily": "Consolas"
+  "monospaceFontFamily": "Consolas",
+  "accentColor": "#0cb800"
 }

@@ -25,3 +25,6 @@
 
 [[binary search assessment notes]]
 [[binary search assessment planning]]
+
+[[storage levels]]
+[[virtual memory]]

@@ -4,56 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "88b4b172a992ea35",
+        "id": "599839103729d90b",
         "type": "tabs",
         "children": [
           {
-            "id": "4c806598d4bc46e1",
+            "id": "c60db71a1b89642f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spacey language options.md",
+                "file": "storage levels.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "spacey language options"
-            }
-          },
-          {
-            "id": "1f5f2424f77aaa9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spacey bibliography.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "spacey bibliography"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "9c838dfc69d126b3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3a7cd085e5184a1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spacey specification.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "spacey specification"
+              "title": "storage levels"
             }
           }
         ]
@@ -87,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#C",
+                "query": "tag:#memory",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +87,8 @@
               "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,14 +159,23 @@
               "icon": "lucide-list",
               "title": "Outline of input output"
             }
+          },
+          {
+            "id": "908791b22f31b7c7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,16 +184,20 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f5f2424f77aaa9c",
+  "active": "c60db71a1b89642f",
   "lastOpenFiles": [
+    "virtual memory.md",
+    "index.md",
+    "storage levels.md",
+    "bugs.md",
+    "spacey bibliography.md",
     "spacey language options.md",
     "spacey planning.md",
-    "spacey bibliography.md",
     "spacey specification.md",
-    "index.md",
     "binary search assessment notes.md",
     "binary search assessment planning.md",
     "spacey specification.pdf",
@@ -229,7 +208,6 @@
     "process and thread synchronisation.md",
     "processes.md",
     "posix threads.md",
-    "bugs.md",
     "dynamic memory allocation.md",
     "C-basics.md",
     "systems programming.md",
