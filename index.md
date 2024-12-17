@@ -8,6 +8,7 @@
 
 [[spacey specification]]
 [[spacey planning]]
+[[spacey language options]]
 [[spacey bibliography]]
 # C language
 [[C-basics]]

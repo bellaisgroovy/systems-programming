@@ -1,7 +1,7 @@
 #spacey #concurrency 
 
 [[spacey language options]]
-I will compare Java, C++, and Python.
+I will compare Java, C, and Python.
 
 # C
 
@@ -97,3 +97,47 @@ for the project:
 Python memory management on the object level is organized with 3 levels of storage, arenas, pools, and blocks. Arenas are held in a dynamically sized list and freed when they are empty. The less arenas there are, the less memory a python program uses. Each arena contains pools, and each pool contains blocks of a single size. 
 
 When some object is created, first it finds an arena, the most filled arenas are used first to more fully utilize memory. Next it finds a pool suitable for its size. If there are no partially full pools of its size, an empty pool is made the correct size and used. Finally, a block inside that pool is allocated to store the object.
+
+concurrency and synchronisation means:
+
+there are many different libraries for python concurrency but they pretty much all use one of the three methods listed below. I will discuss asycio, threading and multiprocessing
+- coroutines
+	- `asyncio`
+	- lets each coroutine decide when to give up control with keywords await and async
+	- fastest for IO bound operations
+		- LIKE SENSORS
+- threads
+	- `threading`
+	- OS automatically preemptively pauses threads when waiting on IO or other
+- processes
+	- `multiprocessing`
+	- OS runs each process in its own python interpreter, potentially on its own actual CPU core for real parallelism
+	- not actually much speed up for IO bound operations
+
+for the project:
+- high level
+	- will be quicker to develop and there are less likely to be mistakes while programming
+	- almost no chance of low level bugs like memory leaks or segmentation faults
+	- easier to make changes to
+	- less efficient due to necessary overhead
+		- eg garbage collection, interpretation
+- interpreted
+	- less efficient as it can't be optimized by a compiler
+- team knows it
+	- reduced development time
+	- less resources in training
+	- better solution at end since team has prior experience
+- modular and object oriented
+	- easier to amend later
+		- more changes will be needed so chill
+
+- pros
+	- multithreaded
+	- high level
+	- I know it
+	- team knows it
+- cons
+	- high level
+		- inefficient
+	- interpreted
+		- inefficient
