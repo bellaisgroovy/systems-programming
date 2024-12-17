@@ -26,6 +26,7 @@
 
 [[storage levels]]
 [[virtual memory]]
+[[paging]]
 # Binary search assessment
 
 [[binary search assessment notes]]

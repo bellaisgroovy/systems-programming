@@ -2,13 +2,24 @@
 
 # recall
 
+- what are the main advantages of virtual memory?
 - how does linking work?
 
 # summary
 
+- the main advantages of virtual memory are 
+	- processes get seemingly contiguous memory
+	- ensure processes only access their own memory
+	- paging
 - you compile each module, then concatenate them and move around the addresses within them to match their new positions
 # notes
 
+- why
+	- seemingly contiguous memory for processes
+	- memory access control
+		- stop processes accessing memory they shouldn't
+	- paging
+		- more memory can be allocated than actually exists
 - linking
 	- linking is using multiple modules of code together
 		- eg importing or including libraries
@@ -26,3 +37,4 @@
 			- eventually will **external fragmentation** and leave gaps between address spaces
 		4. segments
 			- many mini address spaces as to allow non contiguous space per program
+			- [[paging]]
