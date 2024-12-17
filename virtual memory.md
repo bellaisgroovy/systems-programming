@@ -1,5 +1,14 @@
 #memory 
 
+# recall
+
+- how does linking work?
+
+# summary
+
+- you compile each module, then concatenate them and move around the addresses within them to match their new positions
+# notes
+
 - linking
 	- linking is using multiple modules of code together
 		- eg importing or including libraries

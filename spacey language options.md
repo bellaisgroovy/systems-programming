@@ -4,7 +4,7 @@
 
 I should pick languages I know stuff about already so its faster to write. I should pick multithreaded languages because of the massive speed up it would offer. I should pick efficient languages because it is running in space so hardware is very commodity.
 
-I think I will do C/C++, Java, and Rust. C/C++ and Java because the team (and I) am familiar with them, they are reasonably efficient, and they allow multithreaded concurrency. Rust because some aerospace things use it, it will be interesting to write about, and it isn't Python which is the only other real option I know. Python is unsuitable because it is very inefficient.
+I think I will do C/C++, Java, and Python. C/C++ and Java because the team (and I) am familiar with them, they are reasonably efficient, and they allow multithreaded concurrency. I will compare python because I sort of know it and it will highlight the other language's benefits
 
 - C/C++
 	- pros
@@ -31,6 +31,9 @@ I think I will do C/C++, Java, and Rust. C/C++ and Java because the team (and I)
 		- team knows it
 	- cons
 		- high level
+			- inefficient
+		- interpreted
+			- inefficient
 - Golang
 	- pros
 		- multithreaded

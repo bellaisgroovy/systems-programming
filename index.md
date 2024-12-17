@@ -21,10 +21,14 @@
 [[process and thread synchronisation]]
 [[processes]]
 [[concurrency]]
+
+# memory
+
+[[storage levels]]
+[[virtual memory]]
 # Binary search assessment
 
 [[binary search assessment notes]]
 [[binary search assessment planning]]
 
-[[storage levels]]
-[[virtual memory]]
+

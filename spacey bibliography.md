@@ -10,4 +10,6 @@
 - https://www.youtube.com/watch?v=r_MbozD32eo - java concurrency in 10 minutes
 - https://www.javatpoint.com/memory-management-in-java
 - https://aerorust.org/
-- 
+- https://www.geeksforgeeks.org/memory-management-in-python/
+- https://docs.python.org/3/c-api/memory.html
+- https://realpython.com/python-memory-management/#memory-is-an-empty-book
