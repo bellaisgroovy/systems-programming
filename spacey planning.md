@@ -65,7 +65,28 @@ The garbage collector is primarily concerned with the heap area. It frees differ
 
 Concurrency and synchronisation means:
 - built in Thread and Runnable
-- ==Process class and ProcessBuilder==
+	- can be multiple real threads depending on JVM and hardware
+- synchronized keyword, wait, notify, notifyall
+	- used to communicate between threads
+	- very broad and lock or release whole threads instead of individual shared resources
+	- synchronized keyword ensures critical code is run one thread at a time, but multiple different bits of critical code could access the same shared resource!
+- there are many other more fine grained synchronisation means in java.util.concurrent
+	- reentrant lock
+		- similar to a semaphore but allows more advanced methods of choosing what thread gets to access critical section next
+	- semaphore
+		- sychronisation primitive that controls the number of threads in one shared resource
+	- countdown latch
+		- let a number of tasks complete (tracked by a countdown) before a shared resource is available
+	- cyclic barrier
+		- sychronise threads, waiting for all to come to some poiint before continuing them all again
+	- stamped lock
+		- seperate read and write locks
+			- many can read
+			- one can write
+				- none can read while one writes
+- ProcessBuilder
+	- spawns new processes
+	- lots of overhead to create a whole new process with its own JVM
 
 for the project:
 - the team knows it already
@@ -141,3 +162,5 @@ for the project:
 		- inefficient
 	- interpreted
 		- inefficient
+
+![[spacey conclusion]]

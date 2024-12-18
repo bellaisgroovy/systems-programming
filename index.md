@@ -10,6 +10,8 @@
 [[spacey planning]]
 [[spacey language options]]
 [[spacey bibliography]]
+
+[[spacey draft]]
 # C language
 [[C-basics]]
 [[input output]]

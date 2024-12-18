@@ -15,3 +15,5 @@
 - https://realpython.com/python-memory-management/#memory-is-an-empty-book
 - https://realpython.com/python-concurrency/
 - https://realpython.com/python-gil/
+- https://www.geeksforgeeks.org/synchronization-in-java/
+- https://medium.com/@svosh2/java-concurrency-in-practice-synchronization-and-locks-2276960080ac
