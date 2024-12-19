@@ -77,5 +77,5 @@ Python has extensive libraries and beautifully simple syntax, both of which mass
 
 # Recommendation
 
-When considering the cost of development for part of a satellite, the resources invested into 
+Although it will incur the most development time, C is the best choice for the satellite's software. C's low level control and resulting performance make it perfectly suited for the constant real time readings and adjustments required. Ultimately, the software in the satellite will protect the massive resources invested in the entire mission. To ensure the satellite's software is efficient enough to reliably protect it, C is the recommended language.
 
