@@ -120,9 +120,6 @@ for the project:
 
 # Python
 
-Python memory management on the object level is organized with 3 levels of storage, arenas, pools, and blocks. Arenas are held in a dynamically sized list and freed when they are empty. The less arenas there are, the less memory a python program uses. Each arena contains pools, and each pool contains blocks of a single size. 
-
-When some object is created, first it finds an arena, the most filled arenas are used first to more fully utilize memory. Next it finds a pool suitable for its size. If there are no partially full pools of its size, an empty pool is made the correct size and used. Finally, a block inside that pool is allocated to store the object.
 
 concurrency and synchronisation means:
 

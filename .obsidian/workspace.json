@@ -49,7 +49,8 @@
               "title": "spacey specification"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "5727ef6eaca71cb3",
@@ -283,9 +284,9 @@
   },
   "active": "5cbea92194cfd00d",
   "lastOpenFiles": [
-    "spacey planning.md",
     "spacey specification.md",
     "spacey draft.md",
+    "spacey planning.md",
     "spacey conclusion.md",
     "index.md",
     "spacey bibliography.md",

@@ -63,5 +63,20 @@ When some object is created, first it finds an arena, the most filled arenas are
 
 # Comparison and Recommendation
 
-- Java, C, and Python differ the most in their balance between ease of development, and control of operation.
-- The more control of operation developers have, the more efficient the final product can be, and the more time development takes
+- The main requirements for the satellites software are great efficiency, and excellent support for concurrency. These properties will allow it to use its 1326 sensors to make measurements and inform constant real-time adjustments.
+- In a programming language, potential for efficiency comes in the form of fine grained control, but at the cost of complexity and development time
+- Development time is an important consideration  due changing requirements at SpaceY, but ultimately is secondary.
+
+- The satellites software will be most efficient if it is written in C due to the high level of control it offers and low overhead it incurs.
+- Although Python's co-routines are notably a better system for the satellites IO bound concurrency, the overhead of the interpreter makes it slower than C overall
+- Java has no performance benefits over C
+
+- Java and Python have more and easier to use synchronisation options than C
+- Java has the most balance between simplicity and functionality in synchronisation, especially with its many options of locks for different situations, and python is not far behind
+- C just has basic building blocks like semaphores, but these are enough to achieve anything Java or Python can with greater efficiency, even if it would take longer to develop
+
+- Programming in C will incur the longest development time. As C is very low level, and not even object-oriented, it will take longer to develop and slower to add changes. 
+- Python's relative simplicity of programming would likely yield the least development time.
+- Java once again strikes a balance between the two.
+
+- Overall, despite C's complexity, it best meets the satellite software's requirements. It's fine grained, low level control of memory management and concurrency will serve to reliably, and efficiently manage the satellite and all of its sensors.
