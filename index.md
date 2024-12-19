@@ -12,7 +12,7 @@
 [[spacey language options]]
 [[spacey bibliography]]
 
-[[spacey draft]]
+[[spacey drafts]]
 # C language
 [[C-basics]]
 [[input output]]
