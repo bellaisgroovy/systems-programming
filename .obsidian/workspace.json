@@ -49,8 +49,7 @@
               "title": "spacey specification"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "5727ef6eaca71cb3",
@@ -284,11 +283,11 @@
   },
   "active": "5cbea92194cfd00d",
   "lastOpenFiles": [
-    "spacey specification.md",
-    "spacey conclusion.md",
     "spacey planning.md",
-    "index.md",
+    "spacey specification.md",
     "spacey draft.md",
+    "spacey conclusion.md",
+    "index.md",
     "spacey bibliography.md",
     "binary search assessment notes.md",
     "binary search assessment planning.md",

@@ -11,6 +11,11 @@ Concurrency and synchronisation means:
 - pthreads
 	- low level
 	- easy access to synchronisation primitives
+- `pthread_t` is the data structure which holds the information of a thread
+- threads are manually started with  `pthread_create`, and waited on with `pthread_join
+- C uses semaphores to control access to shared resources. Semaphores are synchronisation primitives that can be used to implement higher level synchronisation concepts. This will give the team more control to make more efficient programs, but incur more development time
+- Semaphores work by keeping a value which represents the number of threads accessing a resource and giving other threads access based on that.
+- Semaphores are interacted with by calling the family of functions `pthread_mutex_` `init`, `lock`, `unlock`, and `destroy`.
 - `unistd.h` / standard C library
 	- Unix specific
 		- if using wind river real time Linux should work
