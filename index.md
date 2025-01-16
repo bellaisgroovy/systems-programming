@@ -4,17 +4,11 @@
 
 [[systems programming]]
 
-# spacey assessment
+# Exam prep
 
-[[spacey handin]]
-
-[[spacey specification]]
-[[spacey planning]]
-[[spacey conclusion]]
-[[spacey language options]]
-[[spacey bibliography]]
-
-[[spacey drafts]]
+[[2023 past paper.pdf]]
+[[2023 past paper solution.pdf]]
+[[2023 past paper attempt 1]]
 # C language
 [[C-basics]]
 [[input output]]
@@ -37,5 +31,17 @@
 
 [[binary search assessment notes]]
 [[binary search assessment planning]]
+
+# spacey assessment
+
+[[spacey handin]]
+
+[[spacey specification]]
+[[spacey planning]]
+[[spacey conclusion]]
+[[spacey language options]]
+[[spacey bibliography]]
+
+[[spacey drafts]]
 
 
