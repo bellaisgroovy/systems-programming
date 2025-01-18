@@ -7,6 +7,7 @@
 # Exam prep
 
 [[study plan]]
+[[oustanding questions]]
 
 [[2023 past paper.pdf]]
 [[2023 past paper solution.pdf]]

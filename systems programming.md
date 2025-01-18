@@ -14,12 +14,13 @@
 - systems programs are written in systems programming languages so that they are more performant and can make use of fine control
 - the motivation for creating C was two people in the 80s wanting to port UNIX from one architecture to another
 - a compiler turns human readable code into machine code
-- the C compiler does x steps when compiling
+- the C compiler does 4 steps when compiling
 	- pre-processing
 		- all the # things at the start
 		- macros
 		- file inclusion - this function comes from this file
 		- ==conditional compilation==
+			- compiling if statements including skipping compilation of branches that will never be picked
 		- other stuff
 	- intermediate representation
 		- this is basically assembly but not for a specific architecture

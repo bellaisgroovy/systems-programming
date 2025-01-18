@@ -10,7 +10,12 @@
 
 - concurrency allows multiple programs to run on one core, speeds up execution and increases ability to work with large loads
 - parallelism is multiple process running simultaneously, not interleaved
-- a process and threads are both programs kind of. a process can spawn threads, and is independent. A thread relies on a parent and crashes with its parent. There are other differences.
+- processes vs threads
+	- threads are cheaper to make than processes
+	- may be a different scheduler betweem different threads
+	- processes crash individually, whereas one thread crashes all other threads
+	- processes limit information sharing
+	- processes can be more convenient to use
 
 # notes
 

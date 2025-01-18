@@ -16,6 +16,8 @@
 - a semaphore is a variable that tracks the availability of a shared resource, it can be used to remove race conditions.
 	- a mutex is a semaphore that can only be 0 or 1
 
+# Notes
+
 - race condition
 	- result depends on running order of parallel processes
 	- only a problem when result is undesirable
