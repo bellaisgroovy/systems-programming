@@ -14,7 +14,7 @@
 - the page table contains (at minimum) the real address of a page and the resident bit to indicate if page is loaded in memory
 - paging requires two lookups per lookup but caching is used to make page lookups on average very fast
 - a page fault is when you try to access a page but it isn't loaded yet so you need to wait for disk
-- page replacement is when you move redundant pages out of memory to make way for new ones.
+- page replacement is when you move pages out of the cache to make way for new ones - the pages are still stored but just in slower memory.
 
 # notes
 

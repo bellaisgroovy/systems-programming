@@ -1,4 +1,15 @@
 #memory
+# questions
+
+- what is the storage/memory hierarchy?
+- what is caching?
+
+# recall
+
+- the memory hierarchy refers to memory being more expensive and scarcer as it becomes faster, so most computers have many levels of storage
+- caching is saving values that are predicted to be needed soon in faster storage so they are faster to access
+
+# notes
 
 - in most computers, there is a hierarchy of storage
 	- fast, scarce, and volatile

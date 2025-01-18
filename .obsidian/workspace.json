@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fbb9f9ebda03ebc5",
+        "id": "a499f207b4be905a",
         "type": "tabs",
         "children": [
           {
-            "id": "a809038e7a1dee0e",
+            "id": "d50c3ffc1b11b7c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "process and thread synchronisation.md",
+                "file": "study plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "process and thread synchronisation"
-            }
-          },
-          {
-            "id": "3f7b38c1db9002bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "process and thread synchronisation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "process and thread synchronisation"
+              "title": "study plan"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,9 +205,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f7b38c1db9002bf",
+  "active": "d50c3ffc1b11b7c0",
   "lastOpenFiles": [
     "index.md",
+    "paging.md",
+    "oustanding questions.md",
+    "virtual memory.md",
+    "storage levels.md",
+    "concurrency.md",
+    "processes.md",
     "process and thread synchronisation.md",
     "posix threads.md",
     "concurrency intro.md",
@@ -232,7 +223,6 @@
     "dynamic memory allocation.md",
     "C-basics.md",
     "systems programming.md",
-    "oustanding questions.md",
     "introduction.md",
     "study plan.md",
     "2023 past paper attempt 1.md",
@@ -245,11 +235,6 @@
     "spacey draft.md",
     "spacey planning.md",
     "spacey conclusion.md",
-    "spacey bibliography.md",
-    "binary search assessment notes.md",
-    "binary search assessment planning.md",
-    "spacey language options.md",
-    "virtual memory.md",
     "spacey specification.pdf",
     "process lifecycle diagram.png",
     "process",
