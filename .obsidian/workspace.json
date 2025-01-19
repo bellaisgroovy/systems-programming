@@ -20,6 +20,65 @@
               "icon": "lucide-file",
               "title": "study plan"
             }
+          },
+          {
+            "id": "1d1fac9343f1e69a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2023 past paper.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2023 past paper"
+            }
+          },
+          {
+            "id": "d53e1f58ae69ad58",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2023 past paper solution.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2023 past paper solution"
+            }
+          },
+          {
+            "id": "7f095aec83df8eca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "oustanding questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "oustanding questions"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "ce182d1caf837276",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b4d023dd288972f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023 past paper attempt 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2023 past paper attempt 1"
+            }
           }
         ]
       }
@@ -69,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "array",
+                "query": "amdah",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,36 +264,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d50c3ffc1b11b7c0",
+  "active": "48a0be24761862c9",
   "lastOpenFiles": [
-    "index.md",
-    "paging.md",
-    "oustanding questions.md",
-    "virtual memory.md",
-    "storage levels.md",
-    "concurrency.md",
-    "processes.md",
     "process and thread synchronisation.md",
+    "index.md",
+    "processes.md",
+    "C-basics.md",
+    "2023 past paper attempt 1.md",
+    "2023 past paper solution.pdf",
+    "oustanding questions.md",
+    "2023 past paper.pdf",
+    "concurrency.md",
+    "spacey draft.md",
     "posix threads.md",
     "concurrency intro.md",
+    "study plan.md",
+    "paging.md",
+    "virtual memory.md",
+    "storage levels.md",
     "spacey drafts.md",
     "spacey handin.md",
     "bugs.md",
     "dynamic memory allocation.md",
-    "C-basics.md",
     "systems programming.md",
     "introduction.md",
-    "study plan.md",
-    "2023 past paper attempt 1.md",
-    "2023 past paper solution.pdf",
-    "2023 past paper.pdf",
     "input output.md",
     "spacey specification.md",
     "spacey draft 2.md",
     "spacey chat GPT draft.md",
-    "spacey draft.md",
     "spacey planning.md",
-    "spacey conclusion.md",
     "spacey specification.pdf",
     "process lifecycle diagram.png",
     "process",
