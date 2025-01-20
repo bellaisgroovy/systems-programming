@@ -9,9 +9,9 @@
 [[study plan]]
 [[oustanding questions]]
 
-[[2023 past paper.pdf]]
-[[2023 past paper solution.pdf]]
-[[2023 past paper attempt 1]]
+[[paper notes index]]
+
+[[past papers]]
 # C language
 [[C-basics]]
 [[input output]]

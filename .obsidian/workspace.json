@@ -4,11 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "a499f207b4be905a",
+        "id": "ce182d1caf837276",
         "type": "tabs",
         "children": [
           {
-            "id": "d50c3ffc1b11b7c0",
+            "id": "1b58f5936a05f094",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C-basics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C-basics"
+            }
+          },
+          {
+            "id": "3a85158b9a864839",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "past papers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "past papers"
+            }
+          },
+          {
+            "id": "eddbfe49cdc8055b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper notes structure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "paper notes structure"
+            }
+          },
+          {
+            "id": "4f50e9b86d8f2546",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "virtual memory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "virtual memory"
+            }
+          },
+          {
+            "id": "a725c1d14504f9ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paging.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "paging"
+            }
+          },
+          {
+            "id": "ab182e86b349b3d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,31 +92,7 @@
             }
           },
           {
-            "id": "1d1fac9343f1e69a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2023 past paper.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2023 past paper"
-            }
-          },
-          {
-            "id": "d53e1f58ae69ad58",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2023 past paper solution.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2023 past paper solution"
-            }
-          },
-          {
-            "id": "7f095aec83df8eca",
+            "id": "11bb155db0919ab2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,29 +104,51 @@
               "icon": "lucide-file",
               "title": "oustanding questions"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "ce182d1caf837276",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "5b4d023dd288972f",
+            "id": "cb0010fe45efb463",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023 past paper attempt 1.md",
+                "file": "paper notes structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2023 past paper attempt 1"
+              "title": "paper notes structure"
+            }
+          },
+          {
+            "id": "d76fea589ef8a88f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "past papers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "past papers"
+            }
+          },
+          {
+            "id": "33e940fe3d75b25d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper notes index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "paper notes index"
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -264,23 +332,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48a0be24761862c9",
+  "active": "33e940fe3d75b25d",
   "lastOpenFiles": [
-    "process and thread synchronisation.md",
     "index.md",
-    "processes.md",
+    "paper notes index.md",
+    "past papers.md",
+    "paper notes structure.md",
+    "oustanding questions.md",
+    "study plan.md",
+    "paging.md",
+    "virtual memory.md",
     "C-basics.md",
     "2023 past paper attempt 1.md",
+    "process and thread synchronisation.md",
+    "processes.md",
     "2023 past paper solution.pdf",
-    "oustanding questions.md",
     "2023 past paper.pdf",
     "concurrency.md",
     "spacey draft.md",
     "posix threads.md",
     "concurrency intro.md",
-    "study plan.md",
-    "paging.md",
-    "virtual memory.md",
     "storage levels.md",
     "spacey drafts.md",
     "spacey handin.md",
@@ -291,8 +362,6 @@
     "input output.md",
     "spacey specification.md",
     "spacey draft 2.md",
-    "spacey chat GPT draft.md",
-    "spacey planning.md",
     "spacey specification.pdf",
     "process lifecycle diagram.png",
     "process",
