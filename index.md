@@ -18,15 +18,12 @@
 [[dynamic memory allocation]]
 [[bugs]]
 # concurrent programming
-
 [[concurrency intro]]
 [[posix threads]]
 [[process and thread synchronisation]]
 [[processes]]
 [[concurrency]]
-
 # memory
-
 [[storage levels]]
 [[virtual memory]]
 [[paging]]
