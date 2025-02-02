@@ -1,4 +1,3 @@
-```c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -30,5 +29,3 @@ void reverse_print(char **p, int n) {
     }
     printf("\n");
 }
-
-```
