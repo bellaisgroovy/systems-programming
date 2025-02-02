@@ -402,13 +402,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48a0be24761862c9",
+  "active": "016c665044be1543",
   "lastOpenFiles": [
-    "reverse print program.md",
     "paper notes index.md",
+    "a.out",
+    "paper notes structure.md",
+    "reverse print program.md",
     "random array program.md",
     "split program.md",
-    "paper notes structure.md",
     "index.md",
     "C-basics.md",
     "random_array.c",
@@ -434,12 +435,10 @@
     "bugs.md",
     "dynamic memory allocation.md",
     "systems programming.md",
-    "introduction.md",
     "spacey specification.pdf",
     "process lifecycle diagram.png",
     "process",
     "bugs.md~",
-    "4913",
-    "binary_search_assessment.pdf"
+    "4913"
   ]
 }
