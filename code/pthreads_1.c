@@ -10,6 +10,9 @@
 #define NUM_THREADS 14
 
 void * entry(void * arg) {
+  char letter = (char) * (char*) arg;
+  printf("%c", letter);
+  return NULL;
 }
 
 int main() {
@@ -19,6 +22,9 @@ int main() {
     int i;
     for (i = 0; i < NUM_THREADS; i++) {
         pthread_create(&threads[i], NULL, entry, &hw[i]);
+    }
+    for (i = 0; i < NUM_THREADS; i++) {
+        pthread_join(threads[i], NULL);
     }
 
     return 0;

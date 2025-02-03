@@ -4,123 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ce182d1caf837276",
+        "id": "821e523d17996549",
         "type": "tabs",
         "children": [
           {
-            "id": "379a1129a3531982",
+            "id": "2c27b5c6daebb277",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reverse print program.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "reverse print program"
-            }
-          },
-          {
-            "id": "fa6da5410453002e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linked list program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "linked list program"
-            }
-          },
-          {
-            "id": "ad5a6754d2ce86b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spacey index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "spacey index"
-            }
-          },
-          {
-            "id": "3c80e095c8857742",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concurrency intro.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "concurrency intro"
-            }
-          },
-          {
-            "id": "cea41cef92c3a991",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posix threads.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "posix threads"
-            }
-          },
-          {
-            "id": "24d22449005e84d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "process and thread synchronisation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "process and thread synchronisation"
-            }
-          },
-          {
-            "id": "6f4d3a3af06f9c4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "processes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "processes"
-            }
-          },
-          {
-            "id": "bd2116a7fa717e1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "concurrency.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "concurrency"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -304,9 +201,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd2116a7fa717e1d",
+  "active": "2c27b5c6daebb277",
   "lastOpenFiles": [
+    "2023 past paper attempt 1.md",
     "index.md",
+    "random array program.md",
+    "linked list program.md",
+    "concurrency.md",
     "processes.md",
     "process and thread synchronisation.md",
     "posix threads.md",
@@ -324,9 +225,7 @@
     "spacey index.md",
     "paper notes index.md",
     "past papers.md",
-    "linked list program.md",
     "reverse print program.md",
-    "random array program.md",
     "paper notes structure.md",
     "split program.md",
     "C-basics.md",
@@ -334,8 +233,6 @@
     "study plan.md",
     "paging.md",
     "virtual memory.md",
-    "2023 past paper attempt 1.md",
-    "concurrency.md",
     "spacey draft.md",
     "storage levels.md",
     "spacey drafts.md",

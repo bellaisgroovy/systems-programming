@@ -5,10 +5,10 @@
 
 
 void * printInfo(void * arg) {
-    // Why do we need (char *) before arg?
+    // cast from general void* to char*
     char * user_input = (char *) arg;
 
-    // Why does len have to be malloc-d?
+    // malloc so len persists outside this function
     long int * len = malloc(sizeof(long int *));
     *len = strlen(user_input);
     printf("Argument %s has length %ld\n", user_input, *len);
@@ -19,21 +19,26 @@ void * printInfo(void * arg) {
 
 int main(int argc, char * argv[]) {
 
-    // What do we use pthread_t values for?
+    // pthread_t type stores a threads information
     pthread_t * threads = malloc(argc * sizeof(pthread_t));
     int i;
     for (i = 0; i < argc; i++) {
         // Explain each argument to the pthread_create call, 
         // including which arguments have to be pointers to values _and why_.
+        // 1st arg is pointer to thread for use so we can keep reference to it
+        // 2nd arg is null because we are using default options
+        // 3rd arg is function to run on thread
+        // 4th arg is value to pass as argument to printInfo
         pthread_create(&threads[i], NULL, printInfo, argv[i]);
     }
 
-    // Why should this be a **?
+    // ** because it is a pointer to an array
     long int ** lengths = malloc(argc * sizeof(int *));
 
     for (i = 0; i < argc; i++) {
-        // Explain each argument to the pthread_join call,
-        // especially why the (void*) and & are needed in the second arg.
+        // 1st arg is reference of thread to join
+        // 2nd arg is exit value of thread. 
+        // takes void ** so a pointer to a general data type can be used
         pthread_join(threads[i], (void *)&lengths[i]);
     }
     
@@ -43,8 +48,14 @@ int main(int argc, char * argv[]) {
     }
     printf("\n\nTotal length is %ld\n", total);
 
-    // We have malloc'd a lot, but we have not free-d at all.
-    // Free all necessary pointers here.
+    // free each value of lengths
+    for (i = 0; i < argc; i++) {
+        free(lengths[i]);
+    }
+
+    free(lengths);
+
+    free(threads);
 
     return 0;
 

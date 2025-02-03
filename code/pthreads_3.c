@@ -30,7 +30,16 @@ int main() {
 
     // Start NUM_THREADS threads which each run printFilm
     // passing in a pointer to a movie_t each time
+    pthread_t threads[NUM_THREADS];
+
+    for (int i = 0; i < NUM_THREADS; i++) {
+        pthread_create(&threads[i], NULL, printFilm, (void *) &films[i]);
+    }
+    for (int i = 0; i < NUM_THREADS; i++) {
+        movie_t * film;
+        pthread_join(threads[i], (void**) &film);
+        printf("%s thread has finished!\n", film->title);
+    }
 
     return 0;
-
 }
