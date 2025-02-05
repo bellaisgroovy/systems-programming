@@ -6,8 +6,22 @@
 #define NUM_THREADS 20
 
 void * fizzbuzz(void * arg) {
+
     // Convert the int at arg to a string
+    int * number = (int *) arg;
+
+    char * fizz_buzz;
+
     // ("fizz" if divides by 3, "Buzz" if divides by 5, 'no div' if divides by neither.)
+    if (*number % 3 == 0) {
+        fizz_buzz = "fizz";
+    } else if (*number % 5 == 0) {
+        fizz_buzz = "Buzz";
+    } else {
+        fizz_buzz = "no div";
+    }
+
+    //printf("%i: %s\n", *number, fizz_buzz);
 
     // You will need to make use of the strcpy function of C's standard 
     // String library (string.h)
@@ -16,8 +30,12 @@ void * fizzbuzz(void * arg) {
     //     e.g. strcpy(strToReturn, "fizz");
     // 
     // to get these string literals into allocated heap memory
+    char * strToReturn = malloc(sizeof(fizz_buzz));
+
+    strcpy(strToReturn, fizz_buzz);
 
     // return the string for the val.
+    return strToReturn;
 }
 
 int main() {
@@ -39,5 +57,4 @@ int main() {
     }
 
     pthread_exit(NULL);
-
 }
