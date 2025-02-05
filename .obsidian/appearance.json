@@ -1,8 +1,9 @@
 {
   "cssTheme": "",
   "interfaceFontFamily": "",
-  "textFontFamily": "Times New Roman",
+  "textFontFamily": "",
   "baseFontSize": 20,
-  "monospaceFontFamily": "Consolas",
-  "accentColor": "#0cb800"
+  "monospaceFontFamily": "",
+  "accentColor": "#1b933f",
+  "theme": "moonstone"
 }

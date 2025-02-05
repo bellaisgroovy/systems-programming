@@ -1,8 +1,8 @@
+```c
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 
 void * printInfo(void * arg) {
     // cast from general void* to char*
@@ -58,5 +58,5 @@ int main(int argc, char * argv[]) {
     free(threads);
 
     return 0;
-
 }
+```

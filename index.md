@@ -9,6 +9,7 @@
 [[random array program]]
 [[reverse print program]]
 [[linked list program]]
+[[pthreads program]]
 ### Past Papers
 [[2023 past paper.pdf]]
 [[2023 past paper solution.pdf]]
