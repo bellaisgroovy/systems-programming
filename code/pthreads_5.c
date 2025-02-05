@@ -23,8 +23,6 @@ int main(int argc, char * argv[]) {
     pthread_t * threads = malloc(argc * sizeof(pthread_t));
     int i;
     for (i = 0; i < argc; i++) {
-        // Explain each argument to the pthread_create call, 
-        // including which arguments have to be pointers to values _and why_.
         // 1st arg is pointer to thread for use so we can keep reference to it
         // 2nd arg is null because we are using default options
         // 3rd arg is function to run on thread
