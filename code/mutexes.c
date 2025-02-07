@@ -13,17 +13,15 @@ typedef struct _move {
     town_t * newTown;
 } move_t;
 
-void incrementPopulation(void * townArg) {
-    // We need to get the town out of the argument.
-    town_t * town = (town_t *)townArg;
-    int currPopulation = town->population;
+void incrementPopulation(int * population) {
+    int currPopulation = *population;
     currPopulation++;
 
     printf("Population of this town was %d, but is now %d.\n",
-           town->population,
+           *population,
            currPopulation);
 
-    town->population = currPopulation;
+    *population = currPopulation;
 }
 
 void * birth(void * townArg) {
@@ -31,31 +29,29 @@ void * birth(void * townArg) {
 
     pthread_mutex_lock(town->reaper);
 
-    incrementPopulation(townArg);
+    incrementPopulation(&town->population);
 
     pthread_mutex_unlock(town->reaper);
 
     pthread_exit(NULL);
 }
 
-void decrementPopulation(void * townArg) {
-    // We need to get the town out of the argument.
-    town_t * town = (town_t *)townArg;
-    int currPopulation = town->population;
+void decrementPopulation(int * population) {
+    int currPopulation = *population;
     currPopulation--;
 
     printf("Population of this town was %d, but is now %d.\n",
-           town->population,
+           *population,
            currPopulation);
 
-    town->population = currPopulation;
+    *population = currPopulation;
 }
 
 void * death(void * townArg) {
     town_t * town = (town_t *) townArg;
     pthread_mutex_lock(town->reaper);
 
-    decrementPopulation(townArg);
+    decrementPopulation(&town->population);
 
     pthread_mutex_unlock(town->reaper);
 
