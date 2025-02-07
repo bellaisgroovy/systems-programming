@@ -5,6 +5,7 @@
 
 typedef struct town {
     int population;
+    pthread_mutex_t * reaper;
 } town_t;
 
 typedef struct _move {
@@ -12,11 +13,7 @@ typedef struct _move {
     town_t * newTown;
 } move_t;
 
-pthread_mutex_t reaper;
-
-void * birth(void * townArg) {
-    pthread_mutex_lock(&reaper);
-
+void incrementPopulation(void * townArg) {
     // We need to get the town out of the argument.
     town_t * town = (town_t *)townArg;
     int currPopulation = town->population;
@@ -27,14 +24,21 @@ void * birth(void * townArg) {
            currPopulation);
 
     town->population = currPopulation;
+}
 
-    pthread_mutex_unlock(&reaper);
+void * birth(void * townArg) {
+    town_t * town = (town_t *) townArg;
+
+    pthread_mutex_lock(town->reaper);
+
+    incrementPopulation(townArg);
+
+    pthread_mutex_unlock(town->reaper);
+
     pthread_exit(NULL);
 }
 
-void * death(void * townArg) {
-    pthread_mutex_lock(&reaper);
-
+void decrementPopulation(void * townArg) {
     // We need to get the town out of the argument.
     town_t * town = (town_t *)townArg;
     int currPopulation = town->population;
@@ -45,17 +49,31 @@ void * death(void * townArg) {
            currPopulation);
 
     town->population = currPopulation;
+}
 
-    pthread_mutex_unlock(&reaper);
+void * death(void * townArg) {
+    town_t * town = (town_t *) townArg;
+    pthread_mutex_lock(town->reaper);
+
+    decrementPopulation(townArg);
+
+    pthread_mutex_unlock(town->reaper);
+
     pthread_exit(NULL);
 } 
 
 int main() {
-    pthread_mutex_init(&reaper, NULL);
+    pthread_mutex_t falkirk_reaper;
+    pthread_mutex_t stirling_reaper;
+    pthread_mutex_t glasgow_reaper;
 
-    town_t falkirk = {750};
-    town_t glasgow = {1500};
-    town_t stirling = {900};
+    pthread_mutex_init(&falkirk_reaper, NULL);
+    pthread_mutex_init(&stirling_reaper, NULL);
+    pthread_mutex_init(&glasgow_reaper, NULL);
+
+    town_t falkirk = {750, &falkirk_reaper};
+    town_t glasgow = {1500, &glasgow_reaper};
+    town_t stirling = {900, &stirling_reaper};
 
     move_t ftos = {&falkirk, &stirling};
     move_t gtos = {&glasgow, &stirling};
