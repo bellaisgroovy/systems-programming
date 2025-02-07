@@ -17,7 +17,7 @@ void incrementPopulation(int * population) {
     int currPopulation = *population;
     currPopulation++;
 
-    printf("Population of this town was %d, but is now %d.\n",
+    printf("Population of this town was %i, but is now %i.\n",
            *population,
            currPopulation);
 
@@ -40,7 +40,7 @@ void decrementPopulation(int * population) {
     int currPopulation = *population;
     currPopulation--;
 
-    printf("Population of this town was %d, but is now %d.\n",
+    printf("Population of this town was %i, but is now %i.\n",
            *population,
            currPopulation);
 
@@ -56,7 +56,17 @@ void * death(void * townArg) {
     pthread_mutex_unlock(town->reaper);
 
     pthread_exit(NULL);
-} 
+}
+
+void * move(void * moveArg) {
+    move_t * move = (move_t *) moveArg;
+
+    birth(move->oldTown);
+
+    death(move->newTown);
+
+    pthread_exit(NULL);
+}
 
 int main() {
     pthread_mutex_t falkirk_reaper;
@@ -67,9 +77,9 @@ int main() {
     pthread_mutex_init(&stirling_reaper, NULL);
     pthread_mutex_init(&glasgow_reaper, NULL);
 
-    town_t falkirk = {750, &falkirk_reaper};
-    town_t glasgow = {1500, &glasgow_reaper};
-    town_t stirling = {900, &stirling_reaper};
+    town_t falkirk = {5, &falkirk_reaper};
+    town_t glasgow = {50, &glasgow_reaper};
+    town_t stirling = {500, &stirling_reaper};
 
     move_t ftos = {&falkirk, &stirling};
     move_t gtos = {&glasgow, &stirling};
@@ -83,9 +93,12 @@ int main() {
     pthread_create(&actions[4], NULL, birth, &glasgow);
     pthread_create(&actions[5], NULL, death, &glasgow);
     pthread_create(&actions[6], NULL, death, &glasgow);
+    pthread_create(&actions[7], NULL, move, &ftos);
+    pthread_create(&actions[8], NULL, move, &gtos);
+    pthread_create(&actions[9], NULL, move, &stof);
 
     int i;
-    for (i = 0; i < 7; i++) { // remember to change this when you implement the moves!
+    for (i = 0; i < 10; i++) { // remember to change this when you implement the moves!
         pthread_join(actions[i], NULL);
     }
 
