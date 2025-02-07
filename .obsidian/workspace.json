@@ -4,233 +4,125 @@
     "type": "split",
     "children": [
       {
-        "id": "821e523d17996549",
+        "id": "ca56dd10781b20f2",
         "type": "tabs",
         "children": [
           {
-            "id": "2c27b5c6daebb277",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pthreads program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pthreads program"
-            }
-          },
-          {
-            "id": "a507cc2ce3d63e3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "split program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "split program"
-            }
-          },
-          {
-            "id": "2b793d7a3f3fedb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "random array program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "random array program"
-            }
-          },
-          {
-            "id": "d909567353f7786a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reverse print program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "reverse print program"
-            }
-          },
-          {
-            "id": "fd3ec08cd29e2ad5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linked list program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "linked list program"
-            }
-          },
-          {
-            "id": "a6bc7e0ab3d57784",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linked list program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "linked list program"
-            }
-          },
-          {
-            "id": "e78f5d6d5ff8b646",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pthreads program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pthreads program"
-            }
-          },
-          {
-            "id": "913d31ae52346053",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "spacey handin.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "spacey handin"
-            }
-          },
-          {
-            "id": "c08fe10f0168c961",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "more pthreads program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "more pthreads program"
-            }
-          },
-          {
-            "id": "8b9f949a3f116148",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bugs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "bugs"
-            }
-          },
-          {
-            "id": "eaa33b22d8afe4dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dynamic memory allocation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "dynamic memory allocation"
-            }
-          },
-          {
-            "id": "e10a5005c8c4e5c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mutexes program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "mutexes program"
-            }
-          },
-          {
-            "id": "cc2750a56d00536c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pthreads program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pthreads program"
-            }
-          },
-          {
-            "id": "71c4b10229b58f04",
+            "id": "a31fe21ddfed1487",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "2023 past paper.pdf"
+                "file": "2024 past paper.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "2023 past paper"
+              "title": "2024 past paper"
+            }
+          }
+        ]
+      },
+      {
+        "id": "efc06a41d7702c42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "938e1bce6acb2dc4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2024 past paper solution.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2024 past paper solution"
             }
           },
           {
-            "id": "7d8bd064681e67bb",
+            "id": "6ae444039fbfe48c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-basics.md",
+                "file": "2024 past paper attempt 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C-basics"
+              "title": "2024 past paper attempt 1"
             }
           },
           {
-            "id": "c6c1225315de96ef",
+            "id": "6c6025a1149790c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study plan.md",
+                "file": "virtual memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "study plan"
+              "title": "virtual memory"
+            }
+          },
+          {
+            "id": "f319be793b3f5622",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paging.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "paging"
+            }
+          },
+          {
+            "id": "6faa62e1629a0a6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paging.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "paging"
+            }
+          },
+          {
+            "id": "fd8e4650ddfc5a24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "process and thread synchronisation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "process and thread synchronisation"
+            }
+          },
+          {
+            "id": "fa0f2b769368e3d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concurrency intro.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "concurrency intro"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -278,7 +170,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "function",
+                "query": "tag:#paper-notes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -414,43 +306,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc2750a56d00536c",
+  "active": "6ae444039fbfe48c",
   "lastOpenFiles": [
+    "paging.md",
     "index.md",
+    "virtual memory.md",
+    "2024 past paper attempt 1.md",
+    "process and thread synchronisation.md",
+    "concurrency intro.md",
+    "2024 past paper solution.pdf",
+    "code/double_free.c",
+    "2023 past paper attempt 1.md",
+    "2023 past paper solution.pdf",
+    "code/array_allocation.c",
+    "random array program.md",
+    "split program.md",
     "mutexes program.md",
+    "more pthreads program.md",
+    "pthreads program.md",
+    "linked list program.md",
+    "2024 past paper.pdf",
+    "C memory allocation.md",
+    "storage levels.md",
+    "C bugs.md",
+    "bugs.md",
+    "C-basics.md",
+    "dynamic memory allocation.md",
+    "C Reference.md",
+    "paper notes structure.md",
+    "reverse print program.md",
     "code/dot_product/a.out",
     "code/dot_product/dotprod.c",
     "code/dot_product",
-    "dynamic memory allocation.md",
-    "bugs.md",
-    "more pthreads program.md",
     "code/mutexes.c",
     "spacey handin.md",
     "spacey index.md",
     "study plan.md",
-    "pthreads program.md",
-    "linked list program.md",
-    "reverse print program.md",
-    "random array program.md",
-    "split program.md",
     "code/more_pthreads_3.c",
-    "code/more_pthreads_1.c",
-    "code/more_pthreads_5.c",
-    "C-basics.md",
-    "2023 past paper.pdf",
-    "2023 past paper attempt 1.md",
-    "concurrency.md",
-    "processes.md",
-    "process and thread synchronisation.md",
-    "posix threads.md",
-    "concurrency intro.md",
-    "code/Makefile",
-    "code/split.c",
-    "paper notes index.md",
-    "past papers.md",
-    "paper notes structure.md",
-    "oustanding questions.md",
-    "paging.md",
     "process lifecycle diagram.png"
   ]
 }

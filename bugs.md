@@ -25,6 +25,7 @@
 	- thrown by OS when trying to access restricted areas of memory
 	- causes
 		- dangling pointers
+			- pointing to de-allocated memory
 		- dereferencing null
 		- buffer overflow
             - accessing memory out of bounds

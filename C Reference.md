@@ -1,0 +1,12 @@
+#c #paper-note
+- function declaration
+- variable declaration
+- pointer manipulation
+- pthreads
+- mutexes
+- printf
+- include and define directives
+- if statement
+- for loop
+- while loop
+- typedef

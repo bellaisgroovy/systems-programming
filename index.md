@@ -4,6 +4,11 @@
 ## Exam prep
 [[study plan]]
 [[oustanding questions]]
+### Paper Notes
+- [[C Reference]]
+- [[C bugs]]
+- [[C memory allocation]]
+- [[multithreading]]
 ### Code Snippets
 [[split program]]
 [[random array program]]
@@ -13,6 +18,10 @@
 [[more pthreads program]]
 [[mutexes program]]
 ### Past Papers
+[[2024 past paper.pdf]]
+[[2024 past paper solution.pdf]]
+[[2024 past paper attempt 1]]
+
 [[2023 past paper.pdf]]
 [[2023 past paper solution.pdf]]
 [[2023 past paper attempt 1]]

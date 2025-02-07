@@ -1,4 +1,4 @@
-#past-paper #2023-past-paper #past-paper-attempt #revision
+#past-paper #revision
 SCORED 39/60, 65%, C(?)
 
 1a)

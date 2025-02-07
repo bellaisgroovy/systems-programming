@@ -1,0 +1,2 @@
+- stack memory
+- heap memory

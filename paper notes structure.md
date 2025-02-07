@@ -1,4 +1,4 @@
-#revision #paper-notes
+#revision #paper-note
 **Should include**
 - C code snippets
 - definitions
