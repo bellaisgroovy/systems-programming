@@ -10,6 +10,8 @@
 [[reverse print program]]
 [[linked list program]]
 [[pthreads program]]
+[[more pthreads program]]
+[[mutexes program]]
 ### Past Papers
 [[2023 past paper.pdf]]
 [[2023 past paper solution.pdf]]
