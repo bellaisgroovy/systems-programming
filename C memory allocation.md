@@ -1,2 +1,4 @@
 - stack memory
 - heap memory
+- fragmentation
+	- internal fragmentation

@@ -6,6 +6,7 @@
       {
         "id": "ca56dd10781b20f2",
         "type": "tabs",
+        "dimension": 42.9264349232013,
         "children": [
           {
             "id": "a31fe21ddfed1487",
@@ -18,15 +19,9 @@
               "icon": "lucide-file-text",
               "title": "2024 past paper"
             }
-          }
-        ]
-      },
-      {
-        "id": "efc06a41d7702c42",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "938e1bce6acb2dc4",
+            "id": "91dd8b180fc890a4",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -37,6 +32,42 @@
               "title": "2024 past paper solution"
             }
           },
+          {
+            "id": "d1fe062e0beb93c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C-basics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C-basics"
+            }
+          },
+          {
+            "id": "8c6b945a9f4b5c0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "process and thread synchronisation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "process and thread synchronisation"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "efc06a41d7702c42",
+        "type": "tabs",
+        "dimension": 57.0735650767987,
+        "children": [
           {
             "id": "6ae444039fbfe48c",
             "type": "leaf",
@@ -52,73 +83,115 @@
             }
           },
           {
-            "id": "6c6025a1149790c1",
+            "id": "b0a08d40ed68b39d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "virtual memory.md",
+                "file": "C Reference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "virtual memory"
+              "title": "C Reference"
             }
           },
           {
-            "id": "f319be793b3f5622",
+            "id": "bfeeb4799493d5c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paging.md",
+                "file": "linked list program.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "paging"
+              "title": "linked list program"
             }
           },
           {
-            "id": "6faa62e1629a0a6b",
+            "id": "e0b2d2bed2e2e5a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paging.md",
+                "file": "mutexes program.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "paging"
+              "title": "mutexes program"
             }
           },
           {
-            "id": "fd8e4650ddfc5a24",
+            "id": "4947ebc71fc25e7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "process and thread synchronisation.md",
+                "file": "more pthreads program.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "process and thread synchronisation"
+              "title": "more pthreads program"
             }
           },
           {
-            "id": "fa0f2b769368e3d0",
+            "id": "012dbbd654b6a891",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concurrency intro.md",
+                "file": "pthreads program.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "concurrency intro"
+              "title": "pthreads program"
+            }
+          },
+          {
+            "id": "b9eac0e62a5f39ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C memory allocation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C memory allocation"
+            }
+          },
+          {
+            "id": "3fc263345e3a91e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer systems.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "computer systems"
+            }
+          },
+          {
+            "id": "273c55e27eda2d51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "multithreading.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "multithreading"
             }
           }
         ],
@@ -306,43 +379,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6ae444039fbfe48c",
+  "active": "b0a08d40ed68b39d",
   "lastOpenFiles": [
-    "paging.md",
-    "index.md",
-    "virtual memory.md",
+    "multithreading.md",
+    "C Reference.md",
+    "code/realloc_example.c",
+    "code/malloc_example.c",
     "2024 past paper attempt 1.md",
-    "process and thread synchronisation.md",
-    "concurrency intro.md",
-    "2024 past paper solution.pdf",
-    "code/double_free.c",
-    "2023 past paper attempt 1.md",
-    "2023 past paper solution.pdf",
-    "code/array_allocation.c",
-    "random array program.md",
-    "split program.md",
+    "linked list program.md",
+    "index.md",
+    "code/atoi_example.c",
+    "code/while_example.c",
+    "code/for_example.c",
+    "code/for.c",
+    "code/if_else.c",
     "mutexes program.md",
+    "code/mutexes_simple.c",
     "more pthreads program.md",
     "pthreads program.md",
-    "linked list program.md",
-    "2024 past paper.pdf",
+    "process and thread synchronisation.md",
+    "code/arrays.c",
+    "code/pointer_arithmetic.c",
+    "C-basics.md",
+    "computer systems.md",
     "C memory allocation.md",
+    "paging.md",
+    "virtual memory.md",
+    "concurrency intro.md",
+    "2023 past paper attempt 1.md",
+    "random array program.md",
+    "split program.md",
     "storage levels.md",
     "C bugs.md",
     "bugs.md",
-    "C-basics.md",
     "dynamic memory allocation.md",
-    "C Reference.md",
     "paper notes structure.md",
     "reverse print program.md",
-    "code/dot_product/a.out",
-    "code/dot_product/dotprod.c",
-    "code/dot_product",
-    "code/mutexes.c",
     "spacey handin.md",
-    "spacey index.md",
-    "study plan.md",
-    "code/more_pthreads_3.c",
     "process lifecycle diagram.png"
   ]
 }

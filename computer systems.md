@@ -1,0 +1,6 @@
+- virtual memory
+	- paging
+- caching
+- levels of memory
+- TLB
+- PCB

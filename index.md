@@ -9,6 +9,7 @@
 - [[C bugs]]
 - [[C memory allocation]]
 - [[multithreading]]
+- [[computer systems]]
 ### Code Snippets
 [[split program]]
 [[random array program]]

@@ -1,0 +1,7 @@
+- pthreads syntax
+- benefits
+	- speeding up
+	- responsiveness
+	- scaling
+	- convenience
+- Amdahl's law 
