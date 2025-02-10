@@ -11,11 +11,13 @@ int* initaliseInteger(int val) {
 ```
 
 **Double Free**
-A double free is when an address has `free()` called on it multiple times.
-- double free
-- memory leak
-- integer overflow
-- stack overflow
+A double free is when an address has `free()` called on it multiple times. This will lead to a segmentation fault.
+
+**Memory Leak**
+A memory leak is when memory is allocated but never de-allocated, leading to more and more memory held doing nothing.
+
+**Integer Overflow**
+An integer overflow is when an integer at the integer limit is added to, causing it to roll around to negative numbers. As integers are represented in a set number of binary digits, they have an upper limit, and once that limit is reached, if you add more, it will roll back around to the negative numbers.
 ## Errors
 **Types of Error**
 syntax errors are when code does not follow the syntax of the language, semantic errors are when code leads to erroneous or unintended outputs.
@@ -23,9 +25,10 @@ syntax errors are when code does not follow the syntax of the language, semantic
 **Segmentation Fault**
 A segmentation fault is when the OS shuts down a program that tries to access memory outside of where it is permitted to
 
+**Stack Overflow**
+A Stack overflow is when the stack memory fills up past full. This is caused by a program having a very long call stack. Commonly stack overflows occur when there is excessive recursion.
 ## Tools
 There are many tools available to find bugs and errors in programs.
-
 **Static Analysis**
 Static analysis is any analysis of code done without executing it. This includes linters, compilers, type checking.
 

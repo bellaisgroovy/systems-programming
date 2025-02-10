@@ -4,86 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ca56dd10781b20f2",
-        "type": "tabs",
-        "dimension": 42.9264349232013,
-        "children": [
-          {
-            "id": "a31fe21ddfed1487",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2024 past paper.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2024 past paper"
-            }
-          },
-          {
-            "id": "91dd8b180fc890a4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2024 past paper solution.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2024 past paper solution"
-            }
-          },
-          {
-            "id": "d1fe062e0beb93c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C-basics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C-basics"
-            }
-          },
-          {
-            "id": "8c6b945a9f4b5c0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "process and thread synchronisation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "process and thread synchronisation"
-            }
-          },
-          {
-            "id": "f9cbad9d70b9e5fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bugs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "bugs"
-            }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
         "id": "efc06a41d7702c42",
         "type": "tabs",
-        "dimension": 57.0735650767987,
         "children": [
           {
-            "id": "6ae444039fbfe48c",
+            "id": "6439545253c5fa4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -97,119 +22,7 @@
             }
           },
           {
-            "id": "b0a08d40ed68b39d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Reference.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C Reference"
-            }
-          },
-          {
-            "id": "69a1a2ed48694710",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C bugs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C bugs"
-            }
-          },
-          {
-            "id": "bfeeb4799493d5c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linked list program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "linked list program"
-            }
-          },
-          {
-            "id": "e0b2d2bed2e2e5a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mutexes program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "mutexes program"
-            }
-          },
-          {
-            "id": "4947ebc71fc25e7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "more pthreads program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "more pthreads program"
-            }
-          },
-          {
-            "id": "012dbbd654b6a891",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pthreads program.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pthreads program"
-            }
-          },
-          {
-            "id": "b9eac0e62a5f39ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C memory allocation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C memory allocation"
-            }
-          },
-          {
-            "id": "3fc263345e3a91e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer systems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "computer systems"
-            }
-          },
-          {
-            "id": "273c55e27eda2d51",
+            "id": "f021c0912dea38fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -223,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -407,17 +220,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "69a1a2ed48694710",
+  "active": "f021c0912dea38fe",
   "lastOpenFiles": [
+    "index.md",
+    "2024 past paper attempt 1.md",
+    "concurrency.md",
+    "2024 past paper solution.pdf",
+    "multithreading.md",
+    "concurrency intro.md",
+    "process and thread synchronisation.md",
     "bugs.md",
+    "C Reference.md",
     "C bugs.md",
     "dynamic memory allocation.md",
-    "index.md",
-    "C Reference.md",
-    "multithreading.md",
     "code/realloc_example.c",
     "code/malloc_example.c",
-    "2024 past paper attempt 1.md",
     "linked list program.md",
     "code/atoi_example.c",
     "code/while_example.c",
@@ -428,22 +245,18 @@
     "code/mutexes_simple.c",
     "more pthreads program.md",
     "pthreads program.md",
-    "process and thread synchronisation.md",
     "code/arrays.c",
-    "code/pointer_arithmetic.c",
     "C-basics.md",
     "computer systems.md",
     "C memory allocation.md",
     "paging.md",
     "virtual memory.md",
-    "concurrency intro.md",
     "2023 past paper attempt 1.md",
     "random array program.md",
     "split program.md",
     "storage levels.md",
     "paper notes structure.md",
     "reverse print program.md",
-    "spacey handin.md",
     "process lifecycle diagram.png"
   ]
 }
