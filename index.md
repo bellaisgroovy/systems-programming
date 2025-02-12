@@ -8,7 +8,9 @@
 - [[C Reference]]
 - [[C bugs]]
 - [[C memory allocation]]
-- [[multithreading]]
+- [[concurrency summary]]
+- [[synchronisation]]
+- [[concurrency scaling]]
 - [[computer systems]]
 ### Code Snippets
 [[split program]]
@@ -26,6 +28,10 @@
 [[2023 past paper.pdf]]
 [[2023 past paper solution.pdf]]
 [[2023 past paper attempt 1]]
+
+[[2022 mock past paper.pdf]]
+[[2022 mock past paper solution.pdf]]
+[[2022 mock past paper attempt 1]]
 ## C language
 [[C-basics]]
 [[input output]]

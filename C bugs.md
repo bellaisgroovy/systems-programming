@@ -29,6 +29,7 @@ A segmentation fault is when the OS shuts down a program that tries to access me
 A Stack overflow is when the stack memory fills up past full. This is caused by a program having a very long call stack. Commonly stack overflows occur when there is excessive recursion.
 ## Tools
 There are many tools available to find bugs and errors in programs.
+
 **Static Analysis**
 Static analysis is any analysis of code done without executing it. This includes linters, compilers, type checking.
 

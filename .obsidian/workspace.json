@@ -4,39 +4,137 @@
     "type": "split",
     "children": [
       {
-        "id": "efc06a41d7702c42",
+        "id": "a35a406eee260464",
         "type": "tabs",
         "children": [
           {
-            "id": "6439545253c5fa4d",
+            "id": "c445bbc3291f21f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024 past paper attempt 1.md",
+                "file": "bugs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024 past paper attempt 1"
+              "title": "bugs"
             }
           },
           {
-            "id": "f021c0912dea38fe",
+            "id": "24d20c6ea25b204e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "multithreading.md",
+                "file": "concurrency intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "multithreading"
+              "title": "concurrency intro"
+            }
+          },
+          {
+            "id": "60613c1b362e49fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posix threads.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "posix threads"
+            }
+          },
+          {
+            "id": "6f70f89e0ea68dc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "process and thread synchronisation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "process and thread synchronisation"
+            }
+          },
+          {
+            "id": "6964aee166edc971",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "processes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "processes"
+            }
+          },
+          {
+            "id": "7de37e6335ca023a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concurrency.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "concurrency"
+            }
+          },
+          {
+            "id": "bd55a5be91c9f6a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "storage levels.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "storage levels"
+            }
+          },
+          {
+            "id": "853d519ba6138b0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "virtual memory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "virtual memory"
+            }
+          },
+          {
+            "id": "98afdfba8d50b1b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paging.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "paging"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -84,7 +182,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#paper-notes",
+                "query": "tag:#concurrency",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,6 +215,19 @@
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
+            }
+          },
+          {
+            "id": "8188465b67810485",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
         ],
@@ -188,21 +299,9 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "8188465b67810485",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -220,43 +319,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f021c0912dea38fe",
+  "active": "98afdfba8d50b1b4",
   "lastOpenFiles": [
     "index.md",
-    "2024 past paper attempt 1.md",
-    "concurrency.md",
-    "2024 past paper solution.pdf",
-    "multithreading.md",
-    "concurrency intro.md",
-    "process and thread synchronisation.md",
-    "bugs.md",
-    "C Reference.md",
-    "C bugs.md",
-    "dynamic memory allocation.md",
-    "code/realloc_example.c",
-    "code/malloc_example.c",
-    "linked list program.md",
-    "code/atoi_example.c",
-    "code/while_example.c",
-    "code/for_example.c",
-    "code/for.c",
-    "code/if_else.c",
-    "mutexes program.md",
-    "code/mutexes_simple.c",
-    "more pthreads program.md",
-    "pthreads program.md",
-    "code/arrays.c",
-    "C-basics.md",
-    "computer systems.md",
-    "C memory allocation.md",
-    "paging.md",
     "virtual memory.md",
-    "2023 past paper attempt 1.md",
+    "storage levels.md",
+    "concurrency.md",
+    "processes.md",
+    "process and thread synchronisation.md",
+    "posix threads.md",
+    "concurrency intro.md",
+    "bugs.md",
+    "dynamic memory allocation.md",
+    "2022 mock past paper.pdf",
+    "2022 mock past paper solution.pdf",
+    "2022 mock past paper attempt 1.md",
+    "computer systems.md",
+    "concurrency scaling.md",
+    "synchronisation.md",
+    "concurrency summary.md",
+    "C memory allocation.md",
+    "C bugs.md",
+    "C Reference.md",
+    "mutexes program.md",
+    "paper-note-printout/mutexes program.pdf",
+    "more pthreads program.md",
+    "paper-note-printout/more pthreads program.pdf",
+    "pthreads program.md",
+    "paper-note-printout/pthreads program.pdf",
+    "linked list program.md",
+    "paper-note-printout/linked list program.pdf",
+    "reverse print program.md",
+    "paper-note-printout/reverse print program.pdf",
     "random array program.md",
     "split program.md",
-    "storage levels.md",
-    "paper notes structure.md",
-    "reverse print program.md",
+    "paper-note-printout/random array program.pdf",
+    "paper-note-printout/split program.pdf",
+    "paper-note-printout/computer systems.pdf",
+    "2024 past paper attempt 1.md",
     "process lifecycle diagram.png"
   ]
 }

@@ -186,6 +186,9 @@ free(intPtr);
 free(new_node);
 ```
 
+**`calloc`**
+`calloc` is the same as malloc but it initializes the space with 0.
+
 **Reallocating Memory `realloc`**
 `realloc` changes the size of an existing allocating, in the case of an array, this means adding or removing elements while preserving content.
 ```c
@@ -198,4 +201,21 @@ intArr[7] = 5;
 printf("%i, %i\n", intArr[3], intArr[7]); // 2, 5
 
 free(intArr);
+```
+
+**Processes**
+```c
+pid_t pid;
+/* fork a child process */
+pid = fork();
+if (pid < 0) { /* error occurred */
+fprintf(stderr, "Fork Failed"); return 1;
+} else if (pid == 0) { /* child process */
+execlp("/bin/ls", "ls", NULL);
+} else { /* parent process */
+/* parent will wait for the child to complete */
+wait(NULL);
+printf("Child Complete");
+}
+return 0;
 ```
